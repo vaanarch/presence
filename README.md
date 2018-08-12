@@ -99,7 +99,7 @@ grep 'SearchTerm' FileName
 **Output your search results into a separate text file**
 
 ```
-grep 'SearTerm' File.txt > NewFile.txt
+grep 'SearchTerm' File.txt > NewFile.txt
 ```
 
 **Sort a text file alphabetically**
@@ -111,5 +111,9 @@ sort FILENAME
 ```
 man COMMAND
 ```
+
+&nbsp;
+
+### Basic git
 
 
