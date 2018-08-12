@@ -4,7 +4,8 @@
 * Basic shell commands
 * Basic git
 
-
+&nbsp;
+&nbsp;
 
 ### Installing Python
 
@@ -16,7 +17,7 @@ Usually, however, you'd want to work in an editor. If you go "File > New File" f
 
 You may choose to work in the default shell + editor combination. However, there are other editors you may choose from. Atom is one of them for example. To install you visit https://atom.io and download the version for your particular system. It's a free lightweight editor, it autocompletes your code for you, and has many other advantages. When you open Atom, save your file with a .py extension, e.g. "filename.py" and you're ready to go.
 
-
+&nbsp;
 
 ### Basic shell commands
 
