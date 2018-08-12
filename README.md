@@ -11,9 +11,9 @@
 
 To install you visit https://www.python.org go to downloads and get the latest version for your particular system.
 
-Python comes with its own default shell with a stand alone GUI which you can check out after installation. If you search for "idle" in your start menu or Mac search box and open the first result, you'll see what it looks like. In this environment you work line by line; you type your command, e.g. `<2+2>` hit enter, and it returns the result. 
+Python comes with its own default shell with a stand alone GUI which you can check out after installation. If you search for "idle" in your start menu or Mac search box and open the first result, you'll see what it looks like. In this environment you work line by line; you type your command, e.g. `2+2` hit enter, and it returns the result. 
 
-Usually, however, you'd want to work in an editor. If you go "File > New File" from the shell you'll open the python's default editor. As you type in your code, e.g. `<print("Hello World!")>` it colors different python objects, commands, etc., making it easier for you to read your code. It doesn't autocomplete. To run your code you go to  "Run > Run Module."
+Usually, however, you'd want to work in an editor. If you go "File > New File" from the shell you'll open the python's default editor. As you type in your code, e.g. `print("Hello World!")` it colors different python objects, commands, etc., making it easier for you to read your code. It doesn't autocomplete. To run your code you go to  "Run > Run Module."
 
 You may choose to work in the default shell + editor combination. However, there are other editors you may choose from. Atom is one of them for example. To install you visit https://atom.io and download the version for your particular system. It's a free lightweight editor, it autocompletes your code for you, and has many other advantages. When you open Atom, save your file with a .py extension, e.g. "filename.py" and you're ready to go.
 
@@ -23,7 +23,7 @@ You may choose to work in the default shell + editor combination. However, there
 
 Shell, as you've probably guessed by now, is an environment where you do things by typing in commands for your machine to run. Shell is your command prompt cmd.exe or PowerShell in Windows or Terminal in Mac. When coding, It's quite useful to know some of its basics.
 
-In MacOSX / Linux Search for `<terminal>` and open it. In windowd search for `<cmd>` or its newer version `<PowerShell>` and open it. Try typing in some of these.
+In MacOSX / Linux Search for `terminal` and open it. In windowd search for `cmd` or its newer version `PowerShell` and open it. Try typing in some of these.
 
 
 **Print working directory, show it's path and contents** (directory is another name for folders)
