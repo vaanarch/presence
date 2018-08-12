@@ -92,7 +92,7 @@ in Windows cmd or PowerShell
 cls
 ```
 
-**Search for a something in a text file, e.g. .txt or .md**
+**Search for something in a text file, e.g. .txt or .md**
 
 ```
 grep 'SearchTerm' FileName
