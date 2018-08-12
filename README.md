@@ -87,7 +87,7 @@ cat FILENAME
 more FILENAME
 ```
 
-**Clear the creen**
+**Clear the screen**
 
 in MacOSX/Linux Terminal
 ```
