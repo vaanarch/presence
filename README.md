@@ -5,6 +5,7 @@
 * Basic git
 
 
+
 ### Installing Python
 
 To install you visit https://www.python.org go to downloads and get the latest version for your particular system.
@@ -14,6 +15,7 @@ Python comes with its own default shell with a stand alone GUI which you can che
 Usually, however, you'd want to work in an editor. If you go "File > New File" from the shell you'll open the python's default editor. As you type in your code, e.g. `<print("Hello World!")>` it colors different python objects, commands, etc., making it easier for you to read your code. It doesn't autocomplete. To run your code you go to  "Run > Run Module."
 
 You may choose to work in the default shell + editor combination. However, there are other editors you may choose from. Atom is one of them for example. To install you visit https://atom.io and download the version for your particular system. It's a free lightweight editor, it autocompletes your code for you, and has many other advantages. When you open Atom, save your file with a .py extension, e.g. "filename.py" and you're ready to go.
+
 
 
 ### Basic shell commands
