@@ -24,7 +24,7 @@ You may choose to work in the default shell + editor combination. However, there
 
 Shell, as you've probably guessed by now, is an environment where you do things by typing in commands for your machine to run. Shell is your command prompt cmd.exe or PowerShell in Windows or Terminal in Mac. When coding, It's quite useful to know some of its basics.
 
-In MacOSX / Linux Search for `terminal` and open it. In windowd search for `cmd` or its newer version `PowerShell` and open it. Try typing in some of these.
+In MacOSX / Linux Search for `terminal` and open it. In Windows search for `cmd` or its newer version `PowerShell` and open it. Try typing in some of these.
 
 &nbsp;
 
