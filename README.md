@@ -55,5 +55,61 @@ cd NAME_OF_YOUR_DIRECTORY
 cd ..
 ```
 
+**Open a file (mac only)**
+
+```
+open FILENAME
+```
+
+**Open the current directory in the Finder (mac only)**
+
+```
+open .
+```
+
+**Print the contents of a file to the screen**
+
+```
+cat FILENAME
+```
+
+**Print the contents of a file to the screen, with pagination**
+
+```
+more FILENAME
+```
+
+**Clear the creen**
+
+in MacOSX/Linux Terminal
+```
+clear
+```
+in Windows cmd or PowerShell
+```
+cls
+```
+
+**Search for a something in a text file, e.g. .txt or .md**
+
+```
+grep 'SearchTerm' FileName
+```
+
+**Output your search results into a separate text file**
+
+```
+grep 'SearTerm' File.txt > NewFile.txt
+```
+
+**Sort a text file alphabetically**
+```
+sort FILENAME
+```
+
+**Get help/print the manual of a given command**
+```
+man COMMAND
+```
 
 
