@@ -27,6 +27,7 @@ Shell, as you've probably guessed by now, is an environment where you do things 
 In MacOSX / Linux Search for `terminal` and open it. In windowd search for `cmd` or its newer version `PowerShell` and open it. Try typing in some of these.
 
 &nbsp;
+
 **Print working directory; show it's path** (directory is another name for folders)
 
 ```
