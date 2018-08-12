@@ -28,7 +28,7 @@ In MacOSX / Linux Search for `terminal` and open it. In windowd search for `cmd`
 
 &nbsp;
 
-**Print working directory; show it's path** (directory is another name for folders)
+**Print working directory; show its path** (directory is another name for folders)
 
 ```
 pwd
