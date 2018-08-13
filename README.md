@@ -128,9 +128,27 @@ man COMMAND
 
 While working on your python project you're likely to install additional functionality for python i.e. a library/package. You do so by typing in `pip install PackageName` in your system's shell. This, however, will download and install the package in your python's systems folder, making it available globally. This might be a problem e.g. when you're using two different versions of python or working with two different versions of the same package for separate projects, etc.. To avoid cluttering your system, you'd want to create a separate folder and place all the files necessary to run your script in that location, including a particular version of the python interpreter. This separate environment where your project lives is referred to as Virtual Environment. 
 
-To create a virtual environment first start your shell (terminal in Mac, powershell in Windows). It'll start in your user's folder which is one folder up from the desktop. Type `pwd` to make sure. Navigate to your desktop or to any other directory by typing `cd desktop`. Now make a new directory for your project `mkdir project-name` then change into the new directory `cd project-name`. Now, when you're inside your project's directory type **`python -m venv ./venv`.** This will create a virtual environment inside that folder, in a subdirectory named `venv`. If your in a Windows powershell type `tree`, if you're in a Mac Terminal type `ls * -r`, these will show all the files and folders that just got created inside that folder.
+To create a virtual environment first start your shell (terminal in Mac, powershell in Windows). It'll start in your user's folder which is one folder up from the desktop. Type `pwd` to make sure. 
 
-If you type in `pip --version` however, you'll see that your package installer is still running from the global directory. To activate the virtual environment you've just created and start working from it you need to load a script from inside the venv folder. In MacOSX type `source ./venv/bin/activate`, in Windows `.\\venv\scripts\activate`, now you should see a `(venv)` in the begining of the line, which indicates you're in that particular virtual environment. If you ran into an 'execution policy' error in windows, run your shell as an administrator and type in the following `Set-ExecutionPolicy Unrestricted -Force`, then exit the shell. Now when you open the powershell and navigate to your project's folder you should be able to activate the virtual env.
+Navigate to your desktop or to any other directory by typing `cd desktop`. Now make a new directory for your project `mkdir project-name` then change into the new directory `cd project-name`. 
+
+Now, when you're inside your project's directory type 
+
+**```python -m venv ./venv```.** 
+
+This will create a virtual environment inside that folder, in a subdirectory named `venv`. If your in a Windows powershell type `tree`, if you're in a Mac Terminal type `ls * -r`, these will show all the files and folders that just got created inside that folder.
+
+If you type in `pip --version` however, you'll see that your package installer is still running from the global directory. 
+
+To activate the virtual environment you've just created and start working from it you need to load a script from inside the venv folder. 
+
+In MacOSX type 
+```source ./venv/bin/activate```, 
+in Windows
+
+```.\\venv\scripts\activate```, 
+
+now you should see a `(venv)` in the begining of the line, which indicates you're in that particular virtual environment. If you ran into an 'execution policy' error in windows, run your shell as an administrator and type in the following `Set-ExecutionPolicy Unrestricted -Force`, then exit the shell. Now when you open the powershell and navigate to your project's folder you should be able to activate the virtual env.
 
 While your virtual env is active you can type in `pip list` to see the default packages installed. For the test type in `pip install beautifulsoup4`to install the beautifulsoup package. Now type in `pip list` again, and you can notice the added package.
 
