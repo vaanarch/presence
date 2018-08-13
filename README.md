@@ -132,9 +132,9 @@ To create a virtual environment first start your shell (terminal in Mac, powersh
 
 If you type in `pip --version` however, you'll see that your package installer is still running from the global directory. To activate the virtual environment you've just created and start working from it you need to load a script from inside the venv folder. In MacOSX type `source ./venv/bin/activate`, in Windows `.\\venv\scripts\activate`, now you should see a `(venv)` in the begining of the line, which indicates you're in that particular virtual environment. If you ran into an 'execution policy' error in windows, run your shell as an administrator and type in the following `Set-ExecutionPolicy Unrestricted -Force`, then exit the shell. Now when you open the powershell and change into your projects directory `.\\venv\scripts\activate` command should work.
 
-While your virtual env is active you can type in `pip list` to see the packages installed. For the test type in `pip install beautifulsoup4`to install the beautifulsoup package. Now type in `pip list` again, and you can notice the added package.
+While your virtual env is active you can type in `pip list` to see the default packages installed. For the test type in `pip install beautifulsoup4`to install the beautifulsoup package. Now type in `pip list` again, and you can notice the added package.
 
-To deactivate the venv type `deactivate`. If you're not going to use that folder you can delete it as well.
+To deactivate the venv type `deactivate`.
 
 
 &nbsp;
@@ -142,4 +142,10 @@ To deactivate the venv type `deactivate`. If you're not going to use that folder
 
 ### Basic git
 
+Git is a form of version control. 
+It tracks the changes made to a file, usually a code file, giving you an ability to retrieve an older version of the same file in case your most recent changes broke your code. 
 
+Git is used for collaborations.
+When several people work on the same file and commit those changes (e.g. save and upload them to GitHup), git will automatically merge all the changes so you won't have to go line by line to see how your separate versions of code are different.
+
+To use git with a user interface (GUI) go to https://desktop.github.com/ and install GitHub Desktop, then log in. The interface is self-explanatory, click the plus sign on the upper left corner, enter the project name. Git initializes with certain files that tell it which files to track. You then publish the commit before you make any changes by clicking publish, so your project will be tracked from that point on (a commit is when you submit your changes to GitHub). Everytime you progress with a workable version of your code you make a commit.
