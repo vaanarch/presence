@@ -132,13 +132,11 @@ To create a virtual environment first start your shell (terminal in Mac, powersh
 
 Navigate to your desktop or to any other directory by typing `cd desktop`. Now make a new directory for your project `mkdir project-name` then change into the new directory `cd project-name`. 
 
-Now, when you're inside your project's directory type 
+**To create the virtual environment**, now, when you're inside your project's directory type 
 
-**
 ```
 python -m venv ./venv
-```
-** 
+``` 
 
 This will create a virtual environment inside that folder, in a subdirectory named `venv`. If your in a Windows powershell type `tree`, if you're in a Mac Terminal type `ls * -r`, these will show all the files and folders that just got created inside that folder.
 
