@@ -90,13 +90,8 @@ more FILENAME
 
 **Clear the screen**
 
-in MacOSX/Linux Terminal
 ```
 clear
-```
-in Windows cmd or PowerShell
-```
-cls
 ```
 
 **Search for something in a text file, e.g. .txt or .md**
