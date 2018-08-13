@@ -126,18 +126,18 @@ man COMMAND
 
 ### Pip and Virtual Environments
 
-While working on your python project you're likely to install additional functionality for python i.e. a library/package. You do so by typing in `pip install PackageName` in your system's shell. This, however, will download and install the package in your python's systems folder, making it available globally. This might be a problem e.g. when you're using two different versions of python or working with two different versions of the same package for separate projects, etc.. To avoid cluttering your system, you'd want to create a separate folder and place all the files necessary to run your script in that location, including a particular version of the python interpreter. This separate environment where your project lives is referred to as Virtual Environment. Note, your python script file itself doesn't have to be in that folder.
+While working on your python project you're likely to install additional functionality for python i.e. a library/package. You do so by typing in `pip install PackageName` in your system's shell. This, however, will download and install the package in your python's systems folder, making it available globally. This might be a problem e.g. when you're using two different versions of python or working with two different versions of the same package for separate projects, which with the time will most certainly be the case etc.. To avoid cluttering your system, you'd want to create a separate folder and place all the files necessary to run your script in that location, including a particular version of the python interpreter. This separate environment where your project lives is referred to as Virtual Environment. Note, your python script file itself don't have to be in that folder.
 
-To create a virtual environment first start your shell (terminal in Mac, powershell in Windows). It'll start in your user's folder which is one folder up from the desktop. Type `pwd` to make sure. Navigate to your desktop or to any other directory you'd like to have your virtual enviroments by typing `cd desktop` or `cd documents` etc.. Now make a new directory for your project's virtual env `mkdir project-name` then change into the new directory `cd project-name`. 
+To create a virtual environment first start your shell (terminal in Mac, powershell in Windows). It'll start in your user's folder which is one folder up from the desktop. Type `pwd` to make sure. You can make a folder right there to store all your virtual environments e.g. by typing `mkdir packages` this will create a folder named packages inside your user's folder. Change into that directory by typing in `cd packages`. Now make another directory for your project's virtual env `mkdir my-project-name` then again change into the new directory `cd my-project-name`. 
 
 &nbsp;
 
-**To create the virtual environment, now, when you're inside your project's directory type** 
+**To create the virtual environment type this** 
 ```
 python -m venv ./venv
 ``` 
 
-This will create a virtual environment inside that folder, in a subdirectory `./` named `venv` that can also be named otherwise. If you're in a Windows powershell type `tree`, if you're in a Mac Terminal type `ls * -r`, these will show all the files and folders that just got created inside that folder. If you type in `pip --version` however, you'll see that your package installer is still running from the global directory. 
+This will create a virtual environment inside that folder, in a subdirectory `./` named `venv` which can also be named otherwise. If you're in a Windows powershell type `tree`, if you're in a Mac Terminal type `ls * -r`, these will show all the files and folders that just got created inside that folder. If you type in `pip --version` however, you'll see that your package installer is still running from the global directory. 
 
 &nbsp;
 
@@ -155,7 +155,7 @@ in Windows
 
 now you should see a `(venv)` in the begining of the line, which indicates you're in that particular virtual environment, and can now work from it. If you ran into an 'execution policy' error in windows, run your shell as an administrator and type in the following `Set-ExecutionPolicy Unrestricted -Force`, then exit the shell. Now when you open the powershell and navigate to your project's folder you should be able to activate the virtual env.
 
-While your virtual env is active you can type in `pip list` to see the default packages installed. For a test type in `pip install beautifulsoup4`to install the beautifulsoup package. Now type in `pip list` again, and you can notice the added package.
+While your virtual env is active you can type in `pip list` to see the default packages installed. For a test type in `pip install beautifulsoup4`to install the beautifulsoup package. Now type in `pip list` again, and you can notice the added package. Type in this `pip freeze > requirements.txt` and it'll create a text file containing info about the packages installed in that virtual environment.
 
 &nbsp;
 
@@ -163,7 +163,6 @@ While your virtual env is active you can type in `pip list` to see the default p
 ```
 deactivate
 ```
-
 
 &nbsp;
 &nbsp;
@@ -177,3 +176,5 @@ Git is used for collaborations.
 When several people work on the same file and commit those changes (e.g. save and upload them to GitHup), git will automatically merge all the changes so you won't have to go line by line to see how your separate versions of code are different.
 
 To use git with a user interface (GUI) go to https://desktop.github.com/ and install GitHub Desktop, then log in. The interface is self-explanatory. You first start a new project or a repository, then enter the project name. Git initializes with certain files that tell it which files to track. You then publish the commit before you make any changes by clicking publish, so your project will be tracked from that point on (a commit is when you submit your changes to GitHub, everytime you progress with a workable version of your code you make a commit).
+
+Note from your virtual env you only need one file to be added to your gitHub repository (another name for project folder), and that's the `requirements.txt`, which is just a list of names of packages and their particular versions.
