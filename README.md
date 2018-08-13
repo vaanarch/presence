@@ -165,6 +165,7 @@ now you should see a `(venv)` in the begining of the line, which indicates you'r
 While your virtual env is active you can type in `pip list` to see the default packages installed. For the test type in `pip install beautifulsoup4`to install the beautifulsoup package. Now type in `pip list` again, and you can notice the added package.
 
 &nbsp;
+
 **To deactivate the venv type** 
 
 ```
