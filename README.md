@@ -130,9 +130,8 @@ While working on your python project you're likely to install additional functio
 
 To create a virtual environment first start your shell (terminal in Mac, powershell in Windows). It'll start in your user's folder which is one folder up from the desktop. Type `pwd` to make sure. Navigate to your desktop or to any other directory by typing `cd desktop`. Now make a new directory for your project `mkdir project-name` then change into the new directory `cd project-name`. 
 
-&nbsp;
 
-**To create the virtual environment**, now, when you're inside your project's directory type 
+*To create the virtual environment*, now, when you're inside your project's directory type 
 
 ```
 python -m venv ./venv
@@ -140,9 +139,8 @@ python -m venv ./venv
 
 This will create a virtual environment inside that folder, in a subdirectory `./` named `venv` that can also be names otherwise. If your in a Windows powershell type `tree`, if you're in a Mac Terminal type `ls * -r`, these will show all the files and folders that just got created inside that folder. If you type in `pip --version` however, you'll see that your package installer is still running from the global directory. 
 
-&nbsp;
 
-**To activate the virtual environment** you've just created and start working from it you need to load a script from inside the venv folder. 
+*To activate the virtual environment* you've just created and start working from it you need to load a script from inside the venv folder. 
 
 In MacOSX type
 
@@ -162,7 +160,7 @@ While your virtual env is active you can type in `pip list` to see the default p
 
 &nbsp;
 
-**To deactivate the virtual environment type** 
+*To deactivate the virtual environment type* 
 
 ```
 deactivate
