@@ -139,7 +139,6 @@ Navigate to your desktop or to any other directory by typing `cd desktop`. Now m
 ```
 python -m venv ./venv
 ``` 
-&nbsp;
 
 This will create a virtual environment inside that folder, in a subdirectory named `venv`. If your in a Windows powershell type `tree`, if you're in a Mac Terminal type `ls * -r`, these will show all the files and folders that just got created inside that folder.
 
@@ -161,13 +160,16 @@ in Windows
 .\\venv\scripts\activate
 ```
 
-&nbsp;
-
 now you should see a `(venv)` in the begining of the line, which indicates you're in that particular virtual environment. If you ran into an 'execution policy' error in windows, run your shell as an administrator and type in the following `Set-ExecutionPolicy Unrestricted -Force`, then exit the shell. Now when you open the powershell and navigate to your project's folder you should be able to activate the virtual env.
 
 While your virtual env is active you can type in `pip list` to see the default packages installed. For the test type in `pip install beautifulsoup4`to install the beautifulsoup package. Now type in `pip list` again, and you can notice the added package.
 
-To deactivate the venv type `deactivate`.
+&nbsp;
+**To deactivate the venv type** 
+
+```
+deactivate
+```
 
 
 &nbsp;
