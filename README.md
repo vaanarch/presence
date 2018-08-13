@@ -180,4 +180,4 @@ When several people work on the same file and commit those changes (e.g. save an
 
 To use git with a user interface (GUI) go to https://desktop.github.com/ and install GitHub Desktop, then log in. The interface is self-explanatory. You first start a new project or a repository, then enter the project name. Git initializes with certain files that tell it which files to track. You then publish the commit before you make any changes by clicking publish, so your project will be tracked from that point on (a commit is when you submit your changes to GitHub, everytime you progress with a workable version of your code you make a commit).
 
-Note from your virtual env you only need one file to be added to your gitHub repository (another name for project folder), and that's the `requirements.txt`, which is just a list of names of packages and their particular versions.
+Note from your virtual env you only need one file to be added to your git repository (another name for project folder), and that's the `requirements.txt`, which is just a list of names of packages and their particular versions.
