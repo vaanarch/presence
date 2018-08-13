@@ -153,7 +153,7 @@ in Windows
 .\\venv\scripts\activate
 ```
 
-now you should see a `(venv)` in the begining of the line, which indicates you're in that particular virtual environment, and can now work from it. If you ran into an 'execution policy' error in windows, run your shell as an administrator and type in the following `Set-ExecutionPolicy Unrestricted -Force`, then exit the shell. Now when you open the powershell and navigate to your project's folder you should be able to activate the virtual env.
+now you should see a `(venv)` in the begining of the line, which indicates you're in that particular virtual environment, and can now work from it. If you ran into an 'execution policy' error in windows, run your shell as an administrator and type in the following `Set-ExecutionPolicy Unrestricted -Force`, then exit the shell. Now when you run the powershell just like you did the first time and navigate to your project's virtual env folder e.g. in Windows `cd packages\my-project-name` in Mac `cd packages/my-project-name` you should be able to activate the virtual env, as shown above.
 
 While your virtual env is active you can type in `pip list` to see the default packages installed. For a test type in `pip install beautifulsoup4`to install the beautifulsoup package. Now type in `pip list` again, and you can notice the added package. Type in this `pip freeze > requirements.txt` and it'll create a text file containing info about the packages installed in that virtual environment.
 
