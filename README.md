@@ -132,6 +132,7 @@ To create a virtual environment first start your shell (terminal in Mac, powersh
 
 Navigate to your desktop or to any other directory by typing `cd desktop`. Now make a new directory for your project `mkdir project-name` then change into the new directory `cd project-name`. 
 
+&nbsp;
 **To create the virtual environment**, now, when you're inside your project's directory type 
 
 ```
@@ -142,6 +143,7 @@ This will create a virtual environment inside that folder, in a subdirectory nam
 
 If you type in `pip --version` however, you'll see that your package installer is still running from the global directory. 
 
+&nbsp;
 **To activate the virtual environment** you've just created and start working from it you need to load a script from inside the venv folder. 
 
 In MacOSX type
