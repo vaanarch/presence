@@ -171,7 +171,7 @@ Git is a form of version control.
 It tracks the changes made to a file, usually a code file, giving you an ability to retrieve an older version of the same file in case your most recent changes broke your code. 
 
 Git is used for collaborations.
-When several people work on the same file and commit those changes (e.g. save and upload them to GitHup), git will automatically merge all the changes so you won't have to go line by line to see how your separate versions of code are different.
+When several people work on the same file and commit and push those changes (basically save and upload them to GitHup), git will automatically merge all the changes so you won't have to go line by line to see how your separate versions of code are different.
 
 To use git with a user interface (GUI) go to https://desktop.github.com/ and install GitHub Desktop, then log in. The interface is self-explanatory. You first start a new project or a repository, then enter the project name. Git initializes with certain files that tell it which files to track. You then publish the commit before you make any changes by clicking publish, so your project will be tracked from that point on (a commit is when you submit your changes to GitHub, everytime you progress with a workable version of your code you make a commit).
 
