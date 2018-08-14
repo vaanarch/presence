@@ -8,6 +8,8 @@
 &nbsp;
 &nbsp;
 
+I O refers to input and output. Print function, for example, is used to generate a standard output to the console. Below are some code samples dealing with input and output.
+
 ### Input
 ```python
 name = input("What is your name?\n")
