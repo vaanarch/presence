@@ -9,7 +9,9 @@
 &nbsp;
 &nbsp;
 
-## Python expressions and operators in precedence
+
+### Expressions and operators
+**Python expressions and operators in precedence**
 
 p |Type | Symbols|
 --|-----|-----------------------
@@ -84,7 +86,7 @@ d1 != d2
 
 &nbsp;
 
-## Conditionals
+### Conditionals
 
 Conditionals are a way for you to control the flow of the code execution in your script. 
 
@@ -115,7 +117,7 @@ Now run your script in the interpreter. If you're using the idle and the default
 
 &nbsp;
 
-## Loops
+### Loops
 
 Loops are a way of repeating certain lines of code multiple times.
 
@@ -150,7 +152,7 @@ for key, value in scarfbook_of_depp.items():
 
 &nbsp;
 
-## Functions
+### Functions
 
 Function will take an input, do a certain number of operations within itself, and return a value. You start a function by typing in the `def` key word, ending with `()` and `:`. You call a function by typin in its name followed by `()`.  This is a basic syntax for functions.
 
