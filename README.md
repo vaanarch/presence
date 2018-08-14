@@ -177,9 +177,7 @@ To use git with a user interface (GUI) go to https://desktop.github.com/ and ins
 
 Note from your virtual env you only need one file to be added to your git repository (another name for project folder), and that's the `requirements.txt`, which is just a list of names of packages and their particular versions.
 
-To use git from the shell, you first need to install it.
-
-For Windows visit https://gitforwindows.org/ download and install it.
+To use git from the shell, you first need to install it. For Windows visit https://gitforwindows.org/ download and install it.
 
 For Mac you first install homebrew by typing the following (src https://brew.sh/)
 ```
@@ -189,12 +187,9 @@ Then, once the install is completed, by typing in the this
 ```
 brew install git
 ```
+Once you've installed the git, you can follow the few simple steps described [here](https://help.github.com/articles/adding-an-existing-project-to-github-using-the-command-line/) to initialize a git repo on your machine, committing and pushing it to your GitHub account, essentially uploading it. Note, don't upload the virtual env folder you've created, make another directory someplace else and make that your project folder for your python scripts.
 
-To create a git repository from the shell navigate to your desired folder and type this
-```
-git init project-name
-```
-What you've just created is a local repository (it exists only on your machine) nonthless it has a version control for that folder.
+
 
 
 
