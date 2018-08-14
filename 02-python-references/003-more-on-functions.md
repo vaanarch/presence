@@ -43,6 +43,8 @@ else:
     return (a+b, a)
 ```
 
+&nbsp;
+
 For additional useful information on functions look up Big-Oh notation `O(n)`. That particular function is about how much time an algorithm takes to finish in the worst case scenario.
 
 &nbsp;
