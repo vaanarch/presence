@@ -1,3 +1,14 @@
+## Python 
+
+* Expressions and operators
+* Conditionals / flow control
+* Loops
+* Functions
+
+&nbsp;
+&nbsp;
+&nbsp;
+
 ### Python expressions and operators in precedence
 
 p |Type | Symbols|
