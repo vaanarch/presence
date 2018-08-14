@@ -187,7 +187,7 @@ Then, once the install is completed, by typing in the this
 ```
 brew install git
 ```
-Once you've installed the git, you can follow the few simple steps described [here](https://help.github.com/articles/adding-an-existing-project-to-github-using-the-command-line/) to initialize a git repo on your machine, committing and pushing it to your GitHub account, essentially uploading it. Note, don't upload the virtual env folder you've created, make another directory someplace else and make that your project folder for your python scripts.
+Once you've installed the git, you can follow the few simple steps described [here](https://help.github.com/articles/adding-an-existing-project-to-github-using-the-command-line/) to initialize a git repo on your machine, committing and pushing it to your GitHub account, basically uploading it and keeping in sync. *Note, don't upload the virtual env folder you've created, make another directory someplace else and make that your project folder for your python scripts.*
 
 
 
