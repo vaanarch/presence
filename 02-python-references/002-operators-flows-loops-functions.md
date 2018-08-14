@@ -9,7 +9,7 @@
 &nbsp;
 &nbsp;
 
-### Python expressions and operators in precedence
+## Python expressions and operators in precedence
 
 p |Type | Symbols|
 --|-----|-----------------------
