@@ -176,3 +176,25 @@ When several people work on the same file and commit those changes (e.g. save an
 To use git with a user interface (GUI) go to https://desktop.github.com/ and install GitHub Desktop, then log in. The interface is self-explanatory. You first start a new project or a repository, then enter the project name. Git initializes with certain files that tell it which files to track. You then publish the commit before you make any changes by clicking publish, so your project will be tracked from that point on (a commit is when you submit your changes to GitHub, everytime you progress with a workable version of your code you make a commit).
 
 Note from your virtual env you only need one file to be added to your git repository (another name for project folder), and that's the `requirements.txt`, which is just a list of names of packages and their particular versions.
+
+To use git from the shell, you first need to install it.
+
+For Windows visit https://gitforwindows.org/ download and install it.
+
+For Mac you first install homebrew by typing the following (src https://brew.sh/)
+```
+/usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
+```
+Then, once the install is completed, by typing in the this
+```
+brew install git
+```
+
+To create a git repository from the shell navigate to your desired folder and type this
+```
+git init project-name
+```
+What you've just created is a local repository (it exists only on your machine) nonthless it has a version control for that folder.
+
+
+
