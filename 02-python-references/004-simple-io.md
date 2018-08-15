@@ -66,3 +66,11 @@ File processing. Behaviors for interacting with a text file via a file proxy (na
  `fp.write(string)` | Write given string at current position of the writable file.
  `fp.writelines(seq)` | Write each of the strings of the given sequence at the current position of the writable file. This command does not insert any newlines, beyond those that are embedded in the strings.
  `print(..., file=fp)` | Redirect output of print function to the file.
+
+
+&nbsp;
+&nbsp;
+&nbsp;
+
+
+> Goodrich, M., Tamassia, R., & Goldwasser, M. (2013). Data structures and algorithms in Python. Hoboken, NJ: Wiley.
