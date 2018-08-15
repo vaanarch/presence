@@ -149,7 +149,7 @@ print(Methods.getName(m))
 
 &nbsp;
 
-### Bound and unbound method calls
+### Static and class method
 
 ```python
 class Circle():
