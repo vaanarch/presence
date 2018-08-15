@@ -52,6 +52,7 @@ with open("new.py) as f:
 ```
 
 &nbsp;
+
 File processing. Behaviors for interacting with a text file via a file proxy (named fp).
 
  Calling Syntax | Description
