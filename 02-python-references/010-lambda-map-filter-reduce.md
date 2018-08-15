@@ -73,4 +73,8 @@ from functools import reduce
 print(reduce(lambda x, y: x + y, [41, 11, 42, 13]))
 ```
 
+&nbsp;
+&nbsp;
+&nbsp;
+
 > https://www.python-course.eu/lambda.php
