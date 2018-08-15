@@ -51,6 +51,6 @@ For additional useful information on functions look up Big-Oh notation `O(n)`. T
 &nbsp;
 &nbsp;
 
-> Source
+
 
 > Goodrich, M., Tamassia, R., & Goldwasser, M. (2013). Data structures and algorithms in Python. Hoboken, NJ: Wiley.
