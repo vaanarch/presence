@@ -12,7 +12,7 @@
 &nbsp;
 &nbsp;
 
-OOP refers to object oriented programming. This paragidm in programming allows for a greater level of abstraction, modularity and encapsulation in your code.
+OOP refers to object oriented programming. This paragidm in programming allows for a greater level of abstraction, modularity and encapsulation in your code. Method is function that is associatied with a class. Attributes are the data given to a class.
 
 &nbsp;
 
@@ -79,7 +79,7 @@ print d.name
 
 ```python
 class Student:
-    school = "UMN"
+    school = "UMN" # attributes
 
     def __init__(self, name, age):
         self.name = name
@@ -152,6 +152,10 @@ print(Methods.getName(m))
 ### Static and class method
 
 ```python
+
+# static methods dont use the cls. or self.
+# they don't take the instance or the class as method
+
 class Circle():
 
     pi = 3.141592
