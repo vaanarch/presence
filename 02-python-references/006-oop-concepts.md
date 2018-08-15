@@ -184,3 +184,8 @@ print(c.area())
 print(Circle.radian2degrees(1))
 print(Circle.getPi())
 ```
+
+&nbsp;
+&nbsp;
+&nbsp;
+> http://zetcode.com/lang/python/oop/
