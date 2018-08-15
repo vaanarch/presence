@@ -197,7 +197,7 @@ from flask import g, request, redirect, url_for
 
 def login_requiered(f):
     @wraps(d)
-    def decorated)function(*args, **kwargs):
+    def decorated_function(*args, **kwargs):
         if g.user is None:
             return redirect(url_for('login', next = request.url))
         return f(*args, **kwargs)
@@ -213,4 +213,9 @@ def secret():
 &nbsp;
 &nbsp;
 > https://realpython.com/primer-on-python-decorators/
+
 > https://jeffknupp.com/blog/2013/11/29/improve-your-python-decorators-explained/
+
+> http://simeonfranklin.com/blog/2012/jul/1/python-decorators-in-12-steps/
+
+> https://www.thecodeship.com/patterns/guide-to-python-function-decorators/
