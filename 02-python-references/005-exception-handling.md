@@ -82,7 +82,7 @@ while age <= 0:
 
 &nbsp;
 
-catching an exception `finall` syntax
+catching an exception `finally` syntax
 ```python
 try:
     file = open(filePath, 'w')
