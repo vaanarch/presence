@@ -1,11 +1,14 @@
 ## Python References
 
 * Types of design patterns
- * creational
- * structural
- * behavioral
+  * creational
+  * structural
+  * behavioral
+  
 * Factory method
+
 * Strategy
+
 * Proxy
 
 &nbsp;
