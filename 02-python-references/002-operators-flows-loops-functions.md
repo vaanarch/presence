@@ -192,6 +192,6 @@ some_method(1, 2, 3, name = 'Numbers')
 &nbsp;
 &nbsp;
 
-> Source
+
 
 > Goodrich, M., Tamassia, R., & Goldwasser, M. (2013). Data structures and algorithms in Python. Hoboken, NJ: Wiley.
