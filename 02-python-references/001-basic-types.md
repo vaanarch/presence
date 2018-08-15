@@ -91,6 +91,6 @@ to access a value in a dictionary you use the same notation as with lists, but i
 &nbsp;
 &nbsp;
 
-> Source
+
 
 > Goodrich, M., Tamassia, R., & Goldwasser, M. (2013). Data structures and algorithms in Python. Hoboken, NJ: Wiley.
