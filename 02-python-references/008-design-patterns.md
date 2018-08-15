@@ -4,11 +4,8 @@
   * creational
   * structural
   * behavioral
-  
 * Factory method
-
 * Strategy
-
 * Proxy
 
 &nbsp;
