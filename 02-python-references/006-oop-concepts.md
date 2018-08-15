@@ -129,7 +129,7 @@ print(c.area())
 
 &nbsp;
 
-### Static and class method
+### Bound and unbound method calls
 
 ```python
 class Methods():
